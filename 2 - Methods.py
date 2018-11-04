@@ -13,5 +13,12 @@ def simple_function():
 def function():
     simple_function()
 
+def function_with_args (first = "M.", second = "Anon"):
+    print(f'The name is {first, second}')
+
+def main():
+    function_with_args("Mr.", "Dadoo")
+    print(function_with_args)# prints objects
+    
 if __name__ == "__main__":
-    function()
+    main()
