@@ -22,3 +22,9 @@ If break statement is executed inside for loop then
 the "else" part is skipped. Note that "else" part is executed 
 even if there is a continue statement.
 '''
+count=0
+while(count<5):
+    print(count)
+    count +=1
+else:
+    print("count value reached %d" %(count))
