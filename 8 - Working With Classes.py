@@ -4,6 +4,11 @@ class Vehicle:
     kind = "car"
     color = ""
     value = 100.00
+    
+    def __init__(self):
+        pass
+        #this is a contructor or intializer in python
+    
     def description(self):
         desc_str = "%s is a %s %s worth $%.2f." % (self.name, self.color, self.kind, self.value)
         return desc_str
